@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    
+    <header > 
+        
+        <img class="LogoAlura"  src="./Imagenes/Logo.png" >
+        
+    </header>
+
+    <main>
+        <img class="Rectangulo1">
+        <img class="Muneco" src="./Imagenes/Muñeco.png">
+        
+        <section class="seccion1">
+            
+            <textarea type ="text" class="input-text" id="input-text" placeholder="Ingrese texto aqui" cols="40" rows="6"></textarea>
+        
+       
+    <div class=>
+           
+        
+            <h6 class="Info">SOLO LETRAS MINUSCULAS Y SIN ACENTOS</h6>
+    
+    
+    </div>
+        <div >
+            <button id="encriptar" type="button" onclick= "btnencriptar()" >Encriptar</button>
+            <button id="desencriptar" type="button" onclick="btnDesencriptar()">Desencriptar</button>
+            <button class="BotonCopiar"  type="button"  onclick="btnCopiar()">Copiar</button>
+           
+        </div>
+
+
+        </section>
+        
+        <section  >
+            
+            <textarea  type= "text" class="input-text-area" id="input-text-area" cols="18" rows="8"></textarea>
+        </section>
+
+        <div>
+            <label class="NingunMensajeEncontrado">Ningún mensaje fue encontrado</label>
+            <label class="TextoDeseaDesencriptar">Ingresa el texto que desees encriptar o desencriptar.</label>
+        </div>
+    
+    </main>
+    
+    <footer>
+        
+        <p>&copy Copyright Karol Sierra - 2022</p>
+    
+    </footer>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
